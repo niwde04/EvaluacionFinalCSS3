@@ -47,7 +47,60 @@
 }
 
 
+#contenidoSecundario figure{
+
+    width: 100%;
+    margin: 0px;
 
 
+
+}
+
+
+#contenidoSecundario img{
+
+    width: 30%;
+    margin: 10px;
+    box-shadow: 2px 2px #02010a;
+ 
+   
+ }
+
+#contenidoSecundario div{
+
+    display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+  
+ }
+
+
+#contenidoSecundario{
+    background-color:#d5c75f; 
+}
+
+#paisaje2 img{
+   /* transition: width, 1s;*/
+   transition-property:;
+   transition-duration: 2s, 4s;
+
+}
+
+.imagenessecundarias img:hover {
+
+animation-name: rotateDiv;
+animation-duration: 2s;
+
+
+}
+
+
+@keyframes rotateDiv {
+
+    0%   { rotate: 0deg; }
+  100% { rotate: 10deg; }
+
+ }
+ 
 
 
