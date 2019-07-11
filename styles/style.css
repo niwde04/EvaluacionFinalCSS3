@@ -1,0 +1,53 @@
+
+
+
+#cabecera  {
+
+    background-color: #5b7989;
+    color: white;
+    text-shadow: 2px 0px #02010a;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 2vh 0.5vw;
+ 
+	   
+}
+
+#menu a{
+    margin: 10px;
+    text-decoration:none; 
+    color: white;
+}
+
+#menu a:hover{
+    
+    text-decoration:underline; 
+
+    
+}
+
+#menu {
+    position: absolute;
+    top: 50px;
+    right: 16px;
+}
+
+
+#imagen1{
+    text-align: center;
+    background-color: #82c3a6;
+    margin: 0%;
+    padding: 2vh 0.5vw;
+   
+}
+#imagen1 img{
+
+   width: 40%;
+   box-shadow: 2px 2px #02010a;
+}
+
+
+
+
+
+
