@@ -39,8 +39,7 @@
     
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .menu {
     width: 100%;
     float: left;
@@ -58,19 +57,14 @@
   .menu ul li a {
     padding: 10px;
   }
-=======
-=======
->>>>>>> parent of bd32db0... ArreglarMenu
+
 #menu {
     position: absolute;
     top: 50px;
     right: 16px;
 }
 
-<<<<<<< HEAD
->>>>>>> parent of bd32db0... ArreglarMenu
-=======
->>>>>>> parent of bd32db0... ArreglarMenu
+
 
 #imagen1{
     text-align: center;
