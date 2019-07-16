@@ -13,24 +13,46 @@ body{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     padding: 2vh 0.5vw;
- 
+    height: 40px;
 	   
 }
 
-#menu a{
+#h1{
+
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu {
+    width: 100%;
+    float: left;
+  }
+  
+  .menu ul li {
+    float: right;
+    list-style-type: none;
+    text-align: left;
+  }
+  
+  .menu ul li a {
+    padding: 10px;
+  }
+
+
+.menu a{
     margin: 10px;
     text-decoration:none; 
     color: white;
 }
 
-#menu a:hover{
+.menu a:hover{
     
     text-decoration:underline; 
 
     
 }
 
-#menu {
+/*#menu {
 
     position: relative;
     top: 50px;
@@ -38,7 +60,7 @@ body{
     float: right;
 
 }
-
+*/
 
 
 
