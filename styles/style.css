@@ -5,7 +5,7 @@ body{
     background-color: #02010a;
 }
 
-#cabecera  {
+#encabezado  {
 
     background-color: #5b7989;
     color: white;
@@ -13,44 +13,49 @@ body{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     padding: 2vh 0.5vw;
-    height: 40px;
+    height: 50px;
 	   
 }
 
-#h1{
 
+#titulo{
     float: left;
-    font-weight: bold;
-    font-size: 20px;
+    width: 70%;
+
 }
 
-.menu {
-    width: 100%;
-    float: right;
-  }
+#menu{
+    float: left;
+    width: 30%;
+}
 
-  
-  .menu ul li {
-    float: right;
+#menu h3{
+
+    display: flex;
+    flex-flow: row wrap;
+    text-align: right;
     list-style-type: none;
-    text-align: left;
-  }
-  
-  .menu ul li a {
-    padding: 10px;
-  }
 
-.menu a{
+}
+
+.menu{
+  
+    display: flex;
+    flex-flow: row wrap;
+    float: right;
+}
+
+  
+#menu a{
     margin: 10px;
     text-decoration:none; 
     color: white;
 }
 
-.menu a:hover{
-    
-    text-decoration:underline; 
 
+#menu a:hover{
     
+    text-decoration:underline;    
 }
 
 
