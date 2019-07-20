@@ -47,16 +47,34 @@ header  {
 
     display: flex;
     flex-flow: row wrap;
+   padding: 10px;
+
     list-style-type: none;
     font-weight: bold;
     margin:  auto;
     padding: 1px;
     font-size: 20px;
+    width: 40%;
 
 }
-.titulo{
-    width: 80%;
+
+.inicio{
+
+   margin-left: auto;
+
 }
+
+
+
+
+.titulo{
+    width: 60%;
+    padding: 10px;
+   
+}
+
+
+
 
 
 
@@ -248,6 +266,8 @@ header  {
     margin: 0 auto;
     text-align: center;
     padding: 1px;
+ 
+   
 
   }
 
