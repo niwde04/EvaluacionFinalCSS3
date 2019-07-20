@@ -3,57 +3,73 @@ body{
 
     font-family: 'Dancing Script', cursive;
     background-color: #02010a;
+    min-width: 900px;
 }
 
-#encabezado  {
+header  {
 
     background-color: #5b7989;
     color: white;
     text-shadow: 2px 0px #02010a;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    padding: 2vh 0.5vw;
-    height: 50px;
-	   
+   
+    
+   	   
 }
 
+/*
 
-#titulo{
+.titulo{
     float: left;
     width: 70%;
 
 }
 
-#menu{
-    float: left;
-    width: 30%;
-}
-
-#menu h3{
-
-    display: flex;
-    flex-flow: row wrap;
-    text-align: right;
-    list-style-type: none;
-
-}
-
 .menu{
+    float: right;
+    width: 30%;
+}*/
+
+
+
+.encabezado{
+
+    display: flex;
+    flex-flow: row ;
+    
   
+   
+ }
+
+
+.menu  {
+
     display: flex;
     flex-flow: row wrap;
-    float: right;
+    list-style-type: none;
+    font-weight: bold;
+    margin:  auto;
+    padding: 1px;
+    font-size: 20px;
+
+}
+.titulo{
+    width: 80%;
 }
 
+
+
+
   
-#menu a{
+.menu a{
     margin: 10px;
     text-decoration:none; 
     color: white;
 }
 
 
-#menu a:hover{
+.menu a:hover{
     
     text-decoration:underline;    
 }
@@ -72,7 +88,7 @@ body{
    box-shadow: 2px 2px #02010a;
 }
 
-#contenido{
+.contenido{
     width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -182,39 +198,56 @@ body{
 .imagenessecundarias div{
 
     width: 100%;
+    height: auto;
     padding: 30px;
 }
 
 #contenidoPrimario div>img  {
     width: 100%;
+    height: auto;
 }
 #contenidoPrimario div  {
     padding: 30px;
 }
 
-#h1{
 
+.contenerFooter{
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+    font-size: 4em;
   
-    font-weight: bold;
-    font-size: 50px;
+ }
+
+ .contenerFooter img{
+
+ width: 0.8em;
+  
+ }
+
+ .encabezado{
+
+    display: flex;
+    flex-flow: column ;
+    justify-content: center;
     text-align: center;
+    font-size: 3em;
+
+ }
+
+ .titulo{
     width: 100%;
 }
 
 
-  
+ .menu {
 
-  .menu ul li {
-    float: center;
-   text-align: center;
- 
-
-
-  }
-
-  #cabecera  {
-
-    height: 100px;
+    
+    font-size: 0.7em;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1px;
 
   }
 
