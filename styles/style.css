@@ -18,19 +18,6 @@ header  {
    	   
 }
 
-/*
-
-.titulo{
-    float: left;
-    width: 70%;
-
-}
-
-.menu{
-    float: right;
-    width: 30%;
-}*/
-
 
 
 .encabezado{
@@ -211,68 +198,142 @@ header  {
 
 
     
- @media (max-width: 900px) {
-   
-.imagenessecundarias div{
-
-    width: 100%;
-    height: auto;
-    padding: 30px;
-}
-
-#contenidoPrimario div>img  {
-    width: 100%;
-    height: auto;
-}
-#contenidoPrimario div  {
-    padding: 30px;
-}
 
 
-.contenerFooter{
+
+
+
+  .GaleriaRetratos{
 
     display: flex;
-    flex-flow: column wrap;
-    justify-content: left;
-    font-size: 4em;
-  
- }
-
- .contenerFooter img{
-
- width: 0.8em;
-  
- }
-
- .encabezado{
-
-    display: flex;
-    flex-flow: column ;
+    flex-flow: row wrap;
     justify-content: center;
-    text-align: center;
-    font-size: 3em;
-
+  
  }
 
- .titulo{
-    width: 100%;
+ .GaleriaRetratos div{
+
+    width: 33.33333%;
+    text-align: center;
+    
+    
+ }
+
+
+ .GaleriaRetratos div>img{
+
+    width: 80%;
+    box-shadow: 2px 2px #02010a;
+    margin: 10px;
+    
+ }
+
+
+ .GaleriaRetratos{
+    background-color:#d5c75f; 
+    height: 100%;
 }
 
 
- .menu {
+.R_foto_1  {
+    filter: blur(10px);
+}
 
-    
-    font-size: 0.7em;
-    margin: 0 auto;
-    text-align: center;
-    padding: 1px;
- 
+.R_foto_2, .R_foto_4, .R_foto_6  {
+
+    filter: grayscale(100%);
+}
+
+.R_foto_3 {
+
+    filter: sepia(90%);
+}
+
+
+
+
+
+@media (max-width: 900px) {
    
+    .imagenessecundarias div{
+    
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+    
+    #contenidoPrimario div>img  {
+        width: 100%;
+        height: auto;
+    }
+    #contenidoPrimario div  {
+        padding: 30px;
+    }
+    
+    
+    .contenerFooter{
+    
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: left;
+        font-size: 4em;
+      
+     }
+    
+     .contenerFooter img{
+    
+     width: 0.8em;
+      
+     }
+    
+     .encabezado{
+    
+        display: flex;
+        flex-flow: column ;
+        justify-content: center;
+        text-align: center;
+        font-size: 3em;
+    
+     }
+    
+     .titulo{
+        width: 100%;
+    }
+    
+    
+     .menu {
+    
+        
+        font-size: 0.7em;
+        margin: 0 auto;
+        text-align: center;
+        padding: 1px;
+     
+       
+    
+      }
+    
+    
 
-  }
+      .GaleriaRetratos div{
+          width: 100%;
+      }
+    
+      .GaleriaRetratos{
 
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+      
+     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      }
 
-
-
-
-  }
