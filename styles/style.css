@@ -252,6 +252,57 @@ header  {
 
 
 
+.GaleriaPaisaje{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  
+ }
+
+ .GaleriaPaisaje div{
+
+    width: 33.33333%;
+    text-align: center;
+    
+    
+ }
+
+
+ .GaleriaPaisaje div>img{
+
+    width: 80%;
+    box-shadow: 2px 2px #02010a;
+    margin: 10px;
+    
+ }
+
+
+ .GaleriaPaisaje{
+    background-color:#d5c75f; 
+    height: 100%;
+}
+
+
+.P_foto_1  {
+    filter: blur(10px);
+}
+
+.P_foto_2, .P_foto_4, .P_foto_6  {
+
+    filter: grayscale(100%);
+}
+
+.P_foto_3 {
+
+    filter: sepia(90%);
+}
+
+
+
+
+
+
 
 @media (max-width: 900px) {
    
@@ -327,6 +378,18 @@ header  {
       
      }
     
+
+     .GaleriaPaisaje div{
+        width: 100%;
+    }
+  
+    .GaleriaPaisaje{
+
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+    
+   }
     
     
     
