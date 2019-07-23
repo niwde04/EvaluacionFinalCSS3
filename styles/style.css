@@ -12,29 +12,31 @@ header  {
     color: white;
     text-shadow: 2px 0px #02010a;
     border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-   
-    
-   	   
+    border-top-left-radius: 10px;	   
 }
 
+
+#contenido{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 .encabezado{
 
     display: flex;
     flex-flow: row ;
-    
-  
-   
+
  }
 
+/*------Seccion de Menu de Navegacion------*/
 
 .menu  {
 
     display: flex;
     flex-flow: row wrap;
-   padding: 10px;
+    padding: 10px;
 
     list-style-type: none;
     font-weight: bold;
@@ -45,28 +47,6 @@ header  {
 
 }
 
-.inicio{
-
-   margin-left: auto;
-
-}
-
-
-
-
-.titulo{
-    width: 60%;
-    padding: 10px;
-   
-}
-
-
-
-
-
-
-
-  
 .menu a{
     margin: 10px;
     text-decoration:none; 
@@ -79,25 +59,38 @@ header  {
     text-decoration:underline;    
 }
 
+.inicio{
 
-#imagen1{
+   margin-left: auto;
+
+}
+
+
+.titulo{
+    width: 60%;
+    padding: 10px;
+   
+}
+  
+
+
+
+
+
+.imagen1{
     text-align: center;
     background-color: #82c3a6;
     margin: 0%;
     padding: 2vh 0.5vw;
    
 }
-#imagen1 img{
+.imagen1 img{
 
    width: 40%;
    box-shadow: 2px 2px #02010a;
 }
 
-.contenido{
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 
 .imagenessecundarias{
@@ -123,19 +116,22 @@ header  {
     width: 30%;
     margin: 10px;
  }
- .imagenessecundarias p{
+ 
+ .imagenessecundarias a{
 
-   text-align: center;
-   font-size: 30px;
-   font-weight: bold;
-   text-decoration:underline; 
+  font-size: 2.3em; 
+  color: #02010a;
+
+
  }
 
 .imagenessecundarias{
     background-color:#d5c75f; 
     height: 100%;
 }
-
+.foto1{
+    text-align: center;
+}
 .foto1 img {
    /* transition: width, 1s;*/
  
@@ -151,6 +147,9 @@ header  {
 
 }
 
+.foto2{
+    text-align: center;
+}
 
 .foto2 img {
     /* transition: width, 1s;*/
@@ -300,6 +299,31 @@ header  {
 
 
 
+@keyframes slideInDesdeAbajo {
+    0% {
+    /*  transform: translateY(0);*/
+    margin-top: 150%;
+    }
+    60% {
+    /*  transform: translateY(100%);*/
+    margin-top: -5%;
+    }
+
+    100% {
+        /*  transform: translateY(100%);*/
+        margin-top: 0%;
+        }
+
+
+  }
+
+
+  #contenido {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 1s  slideInDesdeAbajo;
+  }
+
+
 
 
 
@@ -313,11 +337,11 @@ header  {
         padding: 30px;
     }
     
-    #contenidoPrimario div>img  {
+    .ImagenPrimaria div>img  {
         width: 100%;
         height: auto;
     }
-    #contenidoPrimario div  {
+    .ImagenPrimaria div  {
         padding: 30px;
     }
     
