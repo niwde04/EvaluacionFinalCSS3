@@ -15,33 +15,6 @@ header  {
     border-top-left-radius: 10px;	   
 }
 
-@keyframes slideInDesdeAbajo {
-    0% {
-   
-    margin-top: 150%;
-    }
-    60% {
- 
-    margin-top: -5%;
-    }
-
-    100% {
-       
-        margin-top: 0%;
-        }
-
-
-  }
-
-
-  #contenido {  
-   
-    animation: 1s  slideInDesdeAbajo;
-  }
-
-
-
-
 /*------Animacion--------*/
 @keyframes slideInDesdeAbajo {
     0% {
@@ -62,7 +35,7 @@ header  {
   }
 
 
-  #contenido {  
+#contenido {  
   
     animation: 1s  slideInDesdeAbajo;
   }
@@ -256,6 +229,7 @@ header  {
 }
 
 
+
 .R_foto_1  {
     filter: blur(10px);
 }
@@ -411,11 +385,7 @@ footer
         text-align: center;
         padding: 1px;
      
-       
-    
       }
-    
-    
 
       .GaleriaRetratos div{
           width: 100%;
@@ -441,12 +411,6 @@ footer
       justify-content: center;
     
    }
-    
-    
-    
-    
-    
-    
     
     
 }
