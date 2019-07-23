@@ -15,6 +15,60 @@ header  {
     border-top-left-radius: 10px;	   
 }
 
+@keyframes slideInDesdeAbajo {
+    0% {
+   
+    margin-top: 150%;
+    }
+    60% {
+ 
+    margin-top: -5%;
+    }
+
+    100% {
+       
+        margin-top: 0%;
+        }
+
+
+  }
+
+
+  #contenido {  
+   
+    animation: 1s  slideInDesdeAbajo;
+  }
+
+
+
+
+/*------Animacion--------*/
+@keyframes slideInDesdeAbajo {
+    0% {
+   
+    margin-top: 150%;
+    }
+    60% {
+   
+    margin-top: -5%;
+    }
+
+    100% {
+      
+        margin-top: 0%;
+        }
+
+
+  }
+
+
+  #contenido {  
+  
+    animation: 1s  slideInDesdeAbajo;
+  }
+
+
+
 
 #contenido{
     width: 900px;
@@ -31,6 +85,11 @@ header  {
  }
 
 /*------Seccion de Menu de Navegacion------*/
+.titulo{
+    width: 60%;
+    padding: 10px;
+   
+}
 
 .menu  {
 
@@ -66,34 +125,30 @@ header  {
 }
 
 
-.titulo{
-    width: 60%;
-    padding: 10px;
-   
-}
+
   
+/*------Imagen Central--------*/
 
 
 
 
-
-.imagen1{
+.ImagenCentral{
     text-align: center;
     background-color: #82c3a6;
     margin: 0%;
     padding: 2vh 0.5vw;
    
 }
-.imagen1 img{
+.ImagenCentral img{
 
    width: 40%;
    box-shadow: 2px 2px #02010a;
 }
 
 
+/*----Imagen Secundaria---------*/
 
-
-.imagenessecundarias{
+.imagenesSecundarias{
 
     display: flex;
     flex-flow: row wrap;
@@ -102,7 +157,7 @@ header  {
   
  }
 
- .imagenessecundarias img{
+ .imagenesSecundarias img{
 
     width: 100%;
     height: 80%;
@@ -111,54 +166,52 @@ header  {
   
  }
 
- .imagenessecundarias div{
+ .imagenesSecundarias div{
 
     width: 30%;
     margin: 10px;
  }
  
- .imagenessecundarias a{
+ .imagenesSecundarias a{
 
-  font-size: 2.3em; 
+  font-size: 2em; 
   color: #02010a;
 
 
  }
 
-.imagenessecundarias{
+.imagenesSecundarias{
     background-color:#d5c75f; 
     height: 100%;
 }
-.foto1{
+
+
+.fotoPaisaje{
     text-align: center;
 }
-.foto1 img {
-   /* transition: width, 1s;*/
- 
-   transform: rotate(0deg);
+.fotoPaisaje img {
+    transform: rotate(0deg);
    transition-duration: 1s;
 }
 
-.foto1 img:hover {
+.fotoPaisaje img:hover {
 
     transform: rotate(10deg);
     transition-duration: 0.3s;
-
-
 }
 
-.foto2{
+.fotoRetrato{
     text-align: center;
 }
 
-.foto2 img {
-    /* transition: width, 1s;*/
+.fotoRetrato img {
+  
   
     transform: translate(0px, 0px);
     transition-duration: 1s;
  }
  
- .foto2 img:hover {
+ .fotoRetrato img:hover {
  
     transform: translate(20px, -5px);
      transition-duration: 1s;
@@ -166,40 +219,9 @@ header  {
  
  }
 
- footer
- {
-
-    background-color: #C6d5c5;
-    margin: 0px;
-    border-bottom-left-radius:10px;
-    border-bottom-right-radius:10px; 
- }
-
 
  
-
-
- .contenerFooter{
-
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-  
- }
-
- .contenerFooter div{
-
-    margin: 3%;
-    margin-top: 10px;
- }
-
-
-
-
-    
-
-
-
+/*-----Pagina de Retratos---------*/
 
 
   .GaleriaRetratos{
@@ -249,7 +271,7 @@ header  {
 }
 
 
-
+/*-----Pagina Paisajes----------*/
 
 .GaleriaPaisaje{
 
@@ -299,38 +321,43 @@ header  {
 
 
 
-@keyframes slideInDesdeAbajo {
-    0% {
-    /*  transform: translateY(0);*/
-    margin-top: 150%;
-    }
-    60% {
-    /*  transform: translateY(100%);*/
-    margin-top: -5%;
-    }
-
-    100% {
-        /*  transform: translateY(100%);*/
-        margin-top: 0%;
-        }
 
 
-  }
 
+/*-------Pie de pagina-----------*/
+footer
+{
 
-  #contenido {  
-    /* This section calls the slideInFromLeft animation we defined above */
-    animation: 1s  slideInDesdeAbajo;
-  }
+   background-color: #C6d5c5;
+   margin: 0px;
+   border-bottom-left-radius:10px;
+   border-bottom-right-radius:10px; 
+}
 
 
 
 
 
+.contenerFooter{
+
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+ 
+}
+
+.contenerFooter div{
+
+   margin: 3%;
+   margin-top: 10px;
+}
+
+
+/*-------Media query-----------*/
 
 @media (max-width: 900px) {
    
-    .imagenessecundarias div{
+    .imagenesSecundarias div{
     
         width: 100%;
         height: auto;
@@ -422,5 +449,5 @@ header  {
     
     
     
-      }
+}
 
