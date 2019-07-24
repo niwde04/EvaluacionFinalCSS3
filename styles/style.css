@@ -18,30 +18,18 @@ header  {
 /*------Animacion--------*/
 @keyframes slideInDesdeAbajo {
     0% {
-   
     margin-top: 150%;
     }
     60% {
-   
     margin-top: -5%;
     }
-
     100% {
-      
         margin-top: 0%;
-        }
-
-
-  }
-
-
+    }
+}
 #contenido {  
-  
     animation: 1s  slideInDesdeAbajo;
-  }
-
-
-
+}
 
 #contenido{
     width: 900px;
@@ -49,23 +37,18 @@ header  {
     margin-right: auto;
 }
 
-
 .encabezado{
-
     display: flex;
     flex-flow: row ;
-
- }
+}
 
 /*------Seccion de Menu de Navegacion------*/
 .titulo{
     width: 60%;
     padding: 10px;
-   
 }
 
 .menu  {
-
     display: flex;
     flex-flow: row wrap;
     padding: 10px;
@@ -76,7 +59,6 @@ header  {
     padding: 1px;
     font-size: 20px;
     width: 40%;
-
 }
 
 .menu a{
@@ -85,25 +67,18 @@ header  {
     color: white;
 }
 
-
 .menu a:hover{
-    
     text-decoration:underline;    
 }
 
 .inicio{
-
    margin-left: auto;
-
 }
 
 
 
   
 /*------Imagen Central--------*/
-
-
-
 
 .ImagenCentral{
     text-align: center;
@@ -112,6 +87,7 @@ header  {
     padding: 2vh 0.5vw;
    
 }
+
 .ImagenCentral img{
 
    width: 40%;
@@ -126,32 +102,26 @@ header  {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-  
-  
- }
+}
 
- .imagenesSecundarias img{
+.imagenesSecundarias img{
 
     width: 100%;
     height: 80%;
     box-shadow: 2px 2px #02010a ;
- 
-  
- }
+}
 
- .imagenesSecundarias div{
+.imagenesSecundarias div{
 
     width: 30%;
     margin: 10px;
- }
+}
  
- .imagenesSecundarias a{
+.imagenesSecundarias a{
 
   font-size: 2em; 
   color: #02010a;
-
-
- }
+}
 
 .imagenesSecundarias{
     background-color:#d5c75f; 
@@ -162,13 +132,13 @@ header  {
 .fotoPaisaje{
     text-align: center;
 }
+
 .fotoPaisaje img {
     transform: rotate(0deg);
    transition-duration: 1s;
 }
 
 .fotoPaisaje img:hover {
-
     transform: rotate(10deg);
     transition-duration: 0.3s;
 }
@@ -182,48 +152,44 @@ header  {
   
     transform: translate(0px, 0px);
     transition-duration: 1s;
- }
+}
  
- .fotoRetrato img:hover {
+.fotoRetrato img:hover {
  
     transform: translate(20px, -5px);
-     transition-duration: 1s;
- 
- 
- }
+    transition-duration: 1s;
+}
 
-
- 
 /*-----Pagina de Retratos---------*/
 
 
-  .GaleriaRetratos{
+.GaleriaRetratos{
 
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
   
- }
+}
 
- .GaleriaRetratos div{
+.GaleriaRetratos div{
 
     width: 33.33333%;
     text-align: center;
     
     
- }
+}
 
 
- .GaleriaRetratos div>img{
+.GaleriaRetratos div>img{
 
     width: 80%;
     box-shadow: 2px 2px #02010a;
     margin: 10px;
     
- }
+}
 
 
- .GaleriaRetratos{
+.GaleriaRetratos{
     background-color:#d5c75f; 
     height: 100%;
 }
@@ -252,28 +218,25 @@ header  {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-  
- }
+}
 
- .GaleriaPaisaje div{
+.GaleriaPaisaje div{
 
     width: 33.33333%;
-    text-align: center;
-    
-    
- }
+    text-align: center;  
+}
 
 
- .GaleriaPaisaje div>img{
+.GaleriaPaisaje div>img{
 
     width: 80%;
     box-shadow: 2px 2px #02010a;
     margin: 10px;
     
- }
+}
 
 
- .GaleriaPaisaje{
+.GaleriaPaisaje{
     background-color:#d5c75f; 
     height: 100%;
 }
@@ -293,11 +256,6 @@ header  {
     filter: sepia(90%);
 }
 
-
-
-
-
-
 /*-------Pie de pagina-----------*/
 footer
 {
@@ -307,9 +265,6 @@ footer
    border-bottom-left-radius:10px;
    border-bottom-right-radius:10px; 
 }
-
-
-
 
 
 .contenerFooter{
@@ -354,15 +309,15 @@ footer
         justify-content: left;
         font-size: 4em;
       
-     }
+    }
     
-     .contenerFooter img{
+    .contenerFooter img{
     
      width: 0.8em;
       
-     }
+    }
     
-     .encabezado{
+    .encabezado{
     
         display: flex;
         flex-flow: column ;
@@ -370,14 +325,13 @@ footer
         text-align: center;
         font-size: 3em;
     
-     }
+    }
     
-     .titulo{
+    .titulo{
         width: 100%;
     }
     
-    
-     .menu {
+    .menu {
     
         
         font-size: 0.7em;
@@ -385,22 +339,21 @@ footer
         text-align: center;
         padding: 1px;
      
-      }
+    }
 
-      .GaleriaRetratos div{
-          width: 100%;
-      }
+    .GaleriaRetratos div{
+        width: 100%;
+    }
     
-      .GaleriaRetratos{
+    .GaleriaRetratos{
 
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
       
-     }
+    }
     
-
-     .GaleriaPaisaje div{
+    .GaleriaPaisaje div{
         width: 100%;
     }
   
@@ -409,9 +362,7 @@ footer
       display: flex;
       flex-flow: column wrap;
       justify-content: center;
-    
    }
-    
     
 }
 
